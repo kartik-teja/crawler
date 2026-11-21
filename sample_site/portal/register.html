@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Create Account · HK Tax Client Portal</title>
+<link rel="icon" href="../uploads/brand/favicon-1a9e76c510f3.jpg" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../pro/assets/admin.css?v=1789985344" />
+<link rel="stylesheet" href="assets/portal.css?v=1789985344" />
+</head>
+<body>
+<div class="pt-auth">
+  <aside class="pt-auth__aside">
+    <a class="pt-auth__brand" href="../index.html">
+      <img src="../uploads/brand/logo-d0e5f3628e29.jpg" alt="" />
+    </a>
+    <div class="pt-auth__pitch">
+      <p class="pt-auth__eyebrow">Create Account</p>
+      <h2>One Account for<br />All Your <span>Tax Needs.</span></h2>
+      <p>Create your free account to request services, send documents securely, and follow every request to done.</p>
+      <ul class="pt-auth__list">
+        <li>
+          <span class="pt-auth__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <strong>Free to Create</strong>
+          <small>No card required, ever.</small>
+        </li>
+        <li>
+          <span class="pt-auth__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></span>
+          <strong>One Inbox</strong>
+          <small>Submit and manage every request.</small>
+        </li>
+        <li>
+          <span class="pt-auth__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>
+          <strong>Always Current</strong>
+          <small>Watch each request move to done.</small>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pt-auth__foot">
+      <blockquote class="pt-auth__quote">&ldquo;Reliable tax support for a brighter financial tomorrow.&rdquo;</blockquote>
+      <p class="pt-auth__claims"><span>Trusted</span><span>Accurate</span><span>Personalized</span></p>
+    </div>
+  </aside>
+
+  <div class="pt-auth__main">
+    <div class="pt-auth__card">
+      <h1>Create account</h1>
+      <p class="sub">Register to apply for services and track their progress.</p>
+
+      
+      <form method="post" novalidate>
+        <input type="hidden" name="csrf" value="30a7561050770eb8ceb2d1787d7a9e66f5e6057638911a3366b42828fb40928e">        <div class="ad-field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required value="" />
+        </div>
+        <div class="ad-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required value="" />
+        </div>
+        <div class="ad-field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" required value="" />
+        </div>
+        <div class="ad-field-row">
+          <div class="ad-field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="new-password" required minlength="8" />
+            <p class="ad-hint">At least 8 characters.</p>
+          </div>
+          <div class="ad-field">
+            <label for="confirm">Confirm password</label>
+            <input id="confirm" name="confirm" type="password" autocomplete="new-password" required minlength="8" />
+          </div>
+        </div>
+        <button class="btn btn--primary" type="submit" style="width:100%;justify-content:center">Create Account</button>
+      </form>
+      <p class="pt-auth__switch">Already have an account? <a href="login.php">Log in</a></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
